@@ -15,7 +15,7 @@ b = 2  # Верхня межа інтегрування
 result, error = spi.quad(f, a, b)
 
 # кількість точок випробування
-experiment_qty = 10000
+experiment_qty = 100000
 
 # формування випадкових точок випробування
 x_list = list(np.random.uniform(a, b, experiment_qty))
